@@ -1,8 +1,5 @@
 import os
 
-
-
-
 for dirname, _, filenames in os.walk('E:/final data set/Data/test/images'):
     with open('test.txt', 'w') as f:
         for filename in filenames:
